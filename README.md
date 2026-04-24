@@ -1,6 +1,14 @@
 # Binance LIVE ML — Pipeline ETL + Machine Learning para trading algorítmico
 
-Proyecto en Python que implementa un flujo automatizado para obtener datos de mercado desde Binance Futures, transformarlos en variables técnicas, aplicar modelos de Machine Learning previamente entrenados y ejecutar decisiones operativas sobre el mercado.
+Proyecto en Python que implementa un pipeline automatizado de datos (ETL + Machine Learning) para el monitoreo y toma de decisiones en mercados financieros mediante Binance Futures.
+
+El sistema opera de forma continua 24/7, ejecutando ciclos cada 30 minutos en los que:
+1) extrae datos de mercado en tiempo real desde la API,
+2) realiza procesos de limpieza y transformación para generar variables técnicas,
+3) aplica modelos de Machine Learning previamente entrenados,
+4) y ejecuta decisiones operativas basadas en las predicciones.
+
+El pipeline está diseñado para ser robusto y estable, con manejo de errores y ejecución repetitiva controlada, asegurando consistencia en condiciones reales de mercado.
 
 > **Nota:** este repositorio se presenta con fines técnicos, educativos y de portafolio. No constituye recomendación financiera ni sistema listo para operar con capital real sin revisión, pruebas y control de riesgos adicionales.
 
